@@ -3,27 +3,24 @@ let simple_scenario = {
     'cars': [
         {
             'VIN': '287437467447767',
-            'Make': 'Toyota',
-            'Model': 'Auris',
-            'Colour': 'Blue',
+            'Medicine_name ': 'Medicine # 1',
+            'National_ID': '100004788',
             'Reg': 'LM16 YHU',
-            'Owners': ['DVLA', 'Toyota', 'Beechvale Group', 'LeaseCan']
+            'Owners': ['Hospital #1']
         },
         {
             'VIN': '549523556856725',
-            'Make': 'Jaguar',
-            'Model': 'F-Type',
-            'Colour': 'Red',
-            'Reg': 'HE16 WDZ',
-            'Owners': ['DVLA', 'Jaguar Land Rover', 'Beechvale Group']
+            'Medicine_name ': 'Medicine # 2',
+            'National_ID': '100052188',
+            'Reg': 'LM16 YHU',
+            'Owners': ['Hospital #2']
         },
         {
             'VIN': '880352730316924',
-            'Make': 'Alfa Romeo',
-            'Model': 'MiTo',
-            'Colour': 'Blue',
-            'Reg': 'NL65 DTU',
-            'Owners': ['DVLA', 'Alfa Romeo']
+            'Medicine_name ': 'Medicine # 3',
+            'National_ID': '10004388',
+            'Reg': 'LM16 YHU',
+            'Owners': ['Hospital #3']
         }
     ]
 };
@@ -32,83 +29,31 @@ let full_scenario = {
     'cars': [
         {
             'VIN': '720965981630055',
-            'Make': 'Toyota',
-            'Model': 'Yaris',
-            'Colour': 'Red',
-            'Reg': 'QD65 YKR',
-            'Owners': ['DVLA', 'Toyota', 'Beechvale Group', 'LeaseCan', 'Joe Payne', 'Cray Bros (London) Ltd']
+            'Make': 'venoder name #1',
+            'Model': 'Medicine name # 1',
+            'Colour': 'National_ID #1',
+            'Owners': ['Ministry of Health', 'Hospital #1', 'Ministry of Health', 'Hospital #2']
         },
         {
             'VIN': '287437467447767',
-            'Make': 'Toyota',
-            'Model': 'Auris',
-            'Colour': 'Blue',
-            'Reg': 'LM16 YHU',
-            'Owners': ['DVLA', 'Toyota', 'Beechvale Group', 'LeaseCan']
+            'Make': 'venoder #2',
+            'Model': 'Medicine # 2',
+            'Colour': 'National_ID #2',
+            'Owners': ['Ministry of Health', 'Hospital #3', 'Ministry of Health']
         },
         {
             'VIN': '948881310167423',
-            'Make': 'Toyota',
-            'Model': 'Celica',
-            'Colour': 'Silver',
-            'Reg': 'DG16 FVG',
-            'Owners': ['DVLA', 'Toyota', 'Beechvale Group']
+            'Make': 'venoder #3',
+            'Model': 'Medicine # 3',
+            'Colour': 'National_ID #3',
+            'Owners': ['Ministry of Health', 'Hospital #3', 'Ministry of Health', 'Hospital #1']
         },
         {
             'VIN': '181255391772389',
-            'Make': 'Jaguar',
-            'Model': 'XJ',
-            'Colour': 'Black',
-            'Reg': 'FM65 ESL',
-            'Owners': ['DVLA', 'Jaguar Land Rover', 'Beechvale Group', 'LeaseCan']
-        },
-        {
-            'VIN': '549523556856725',
-            'Make': 'Jaguar',
-            'Model': 'F-Type',
-            'Colour': 'Red',
-            'Reg': 'HE16 WDZ',
-            'Owners': ['DVLA', 'Jaguar Land Rover', 'Beechvale Group']
-        },
-        {
-            'VIN': '523447019546831',
-            'Make': 'Land Rover',
-            'Model': 'Defender',
-            'Colour': 'Silver',
-            'Reg': 'EY16 FRV',
-            'Owners': ['DVLA', 'Jaguar Land Rover', 'Beechvale Group']
-        },
-        {
-            'VIN': '546303780997253',
-            'Make': 'Alfa Romeo',
-            'Model': 'Giulietta',
-            'Colour': 'White',
-            'Reg': 'JU65 XMH',
-            'Owners': ['DVLA', 'Alfa Romeo']
-        },
-        {
-            'VIN': '128994473011261',
-            'Make': 'Alfa Romeo',
-            'Model': 'MiTO',
-            'Colour': 'Black',
-            'Reg': 'YD65 FTB',
-            'Owners': ['DVLA', 'Alfa Romeo']
-        },
-        {
-            'VIN': '747542562791231',
-            'Make': 'Alfa Romeo',
-            'Model': '4C',
-            'Colour': 'Red',
-            'Reg': 'RX65 RNG',
-            'Owners': ['DVLA', 'Alfa Romeo']
-        },
-        {
-            'VIN': '880352730316924',
-            'Make': 'Alfa Romeo',
-            'Model': 'MiTo',
-            'Colour': 'Blue',
-            'Reg': 'NL65 DTU',
-            'Owners': ['DVLA', 'Alfa Romeo']
+            'Make': 'venoder name #4',
+            'Model': 'Medicine name # 4',
+            'Colour': 'National_ID #4',
+            'Owners': ['Ministry of Health', 'Hospital #4', 'Ministry of Health', 'Hospital #3']
         }
     ]
 };
